@@ -21,8 +21,8 @@ Here is an sample that uses Spring in Android:
 ```
 
 To make this sample work in an Android application you need the following jars:
-org.codehaus.jackson.core.jar
-org.codehaus.jackson.mapper.jar
-org.restlet.ext.jackson.jar
-spring-android-core-1.0.1.RELEASE.jar
-spring-android-rest-template-1.0.1.RELEASE.jar
+* org.codehaus.jackson.core.jar
+* org.codehaus.jackson.mapper.jar
+* org.restlet.ext.jackson.jar
+* spring-android-core-1.0.1.RELEASE.jar
+* spring-android-rest-template-1.0.1.RELEASE.jar

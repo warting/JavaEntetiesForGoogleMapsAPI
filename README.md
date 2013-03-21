@@ -4,6 +4,7 @@ Copy all files to you project and use your prefered json object mapper.
 
 Here is an sample that uses Spring in Android:
 
+```java
 	String url = String.format("http://maps.googleapis.com/maps/api/directions/json?origin=%f,%f&destination=%f,%f&sensor=false", 
 							fromLocation.getLatitude(), fromLocation.getLongitude(), toLocation.getLatitude(), toLocation.getLongitude());
 
@@ -17,7 +18,7 @@ Here is an sample that uses Spring in Android:
 	// Make the HTTP GET request, marshaling the response from
 	// JSON to an DirectionsResponse object
 	DirectionsResponse eventList = restTemplate.getForObject(url, DirectionsResponse.class);
-
+```
 
 To make this sample work in an Android application you need the following jars:
 org.codehaus.jackson.core.jar
